@@ -1,16 +1,69 @@
-div {
-  color: #fff;
-}
-
-p {
+.nav-link {
   color: #837d88;
+  font-size: 13px;
+  text-decoration-line: none;
 }
 
-article {
+.plans-link {
+  color: #2c2830;
+  font-size: 13px;
+  text-decoration-line: none;
+}
+
+.section-humaniz {
   background-color: #2d2641;
-  color: #fff;
 }
 
-strong {
+.title-humaniz {
+  color: #fff;
+  font-size: 72px;
+}
+
+.text-humaniz {
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 13px;
+  text-decoration-line: none;
+}
+
+.title-different {
+  color: #2C2830;
+  font-size: 72px;
+}
+
+.title {
+  color: #2c2830;
+  font-size: 28px;
+}
+
+.text {
   color: #837d88;
+  font-size: 16px;
+}
+
+.artic {
+  background-color: #2d2641;
+}
+
+.artic-title {
+  color: #fff;
+  font-size: 56px;
+}
+
+.footer-list {
+  background-color: #fafafa;
+}
+
+.footer-iteam {
+  color: #837d88;
+}
+
+.iteam-link {
+  color: #2d2641;
+  font-size: 13px;
+  text-decoration-line: none;
 }
