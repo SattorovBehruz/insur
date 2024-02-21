@@ -1,3 +1,7 @@
+.list {
+  list-style: none;
+}
+
 .nav-link {
   color: #837d88;
   font-size: 13px;
@@ -8,10 +12,17 @@
   color: #2c2830;
   font-size: 13px;
   text-decoration-line: none;
+  border: 1.5px solid #2C2830;
+  text-align: center;
 }
 
 .section-humaniz {
   background-color: #2d2641;
+}
+
+.humaniz {
+  display: inline-block;
+  width: 540px;
 }
 
 .title-humaniz {
@@ -28,6 +39,12 @@
   color: #fff;
   font-size: 13px;
   text-decoration-line: none;
+  border: 1.5px solid #fff;
+}
+
+.different-box {
+  display: inline-block;
+  width: 350px;
 }
 
 .title-different {
@@ -45,8 +62,13 @@
   font-size: 16px;
 }
 
-.artic {
+.artic-box {
   background-color: #2d2641;
+}
+
+.box-artic {
+  display: inline-block;
+  width: 475px;
 }
 
 .artic-title {
@@ -66,4 +88,9 @@
   color: #2d2641;
   font-size: 13px;
   text-decoration-line: none;
+}
+
+.company {
+  display: inline-block;
+  width: 255px;
 }
