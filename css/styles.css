@@ -1,5 +1,42 @@
-.list {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-box {
+  display: inline-block;
+  margin-bottom: 31px;
+  padding-top: 33px;
+}
+
+.images-link {
+  margin-right: 549px;
+  text-decoration-line: none;
+}
+
+.hero-nav {
+  display: inline-block;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+.list-nav {
   list-style: none;
+}
+
+.item-nav {
+  display: inline-block;
 }
 
 .nav-link {
@@ -11,35 +48,47 @@
 .plans-link {
   color: #2c2830;
   font-size: 13px;
+  padding: 13px 28px 12px;
   text-decoration-line: none;
-  border: 1.5px solid #2C2830;
-  text-align: center;
+  border: 2px solid #2C2830;
 }
 
 .section-humaniz {
+  display: inline-block;
   background-color: #2d2641;
 }
 
 .humaniz {
   display: inline-block;
   width: 540px;
+  margin-left: 165px;
 }
 
 .title-humaniz {
   color: #fff;
   font-size: 72px;
+  margin-bottom: 16px;
 }
 
 .text-humaniz {
   color: #fff;
   font-size: 16px;
+  margin-bottom: 24px;
 }
 
 .btn {
+  display: inline-block;
   color: #fff;
   font-size: 13px;
+  margin-bottom: 127px;
+  padding: 13px 28px 12px;
   text-decoration-line: none;
   border: 1.5px solid #fff;
+}
+
+.images-humaniz {
+  display: inline-block;
+  margin-top: 85px;
 }
 
 .different-box {
@@ -50,25 +99,37 @@
 .title-different {
   color: #2C2830;
   font-size: 72px;
+  margin-top: 369px;
+  margin-bottom: 96px;
+}
+
+.images-icon {
+  display: inline-block;
+  margin-right: 294px;
+  margin-bottom: 32px;
 }
 
 .title {
   color: #2c2830;
   font-size: 28px;
+  margin-bottom: 16px;
 }
 
 .text {
   color: #837d88;
   font-size: 16px;
+  margin-right: 30px;
 }
 
-.artic-box {
+.artic {
   background-color: #2d2641;
+  margin-top: 158px;
 }
 
 .box-artic {
   display: inline-block;
   width: 475px;
+  margin-left: 81px;
 }
 
 .artic-title {
@@ -76,8 +137,29 @@
   font-size: 56px;
 }
 
+.artic-btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration-line: none;
+  margin-left: 314px;
+  padding: 13px 24px 12px;
+  border: 2px solid #fff;
+}
+
 .footer-list {
   background-color: #fafafa;
+  margin-top: 150px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-top: 67px;
+  margin-right: 855px;
+}
+
+.sayit-link {
+  display: inline-block;
+  text-decoration-line: none;
 }
 
 .footer-iteam {
@@ -93,4 +175,20 @@
 .company {
   display: inline-block;
   width: 255px;
+  margin-top: 48px;
+}
+
+.footer-iteam {
+  display: inline-block;
+  margin-bottom: 36px;
+}
+
+.list {
+  color: #2d2641;
+  font-size: 13px;
+  list-style: none;
+}
+
+.iteam {
+  margin-bottom: 16px;
 }
